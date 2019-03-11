@@ -88,6 +88,11 @@ registerHandler("_disableJavascriptAlertBoxSafetyTimeout", disableJavscriptAlert
 
 可能产生的问题：由于组件再次展示时不再重新挂载，是否会影响到组件的功能。
 
+### 4. 把require('xxx')的动态资源请求改为import xxx from xxx引入
+该方案用于防止ios环境静态资源重复请求的问题，android环境没有该问题。
+
+由于源代码大量的require请求是动态生成的，所以无法使用import方式导入，能改造的请求数太少，对整体性能影响甚微。
+
 ## 五、最终处置方案
 经权衡成本、时间、人力因素，我们采用了1+3两种组合方案。
 
