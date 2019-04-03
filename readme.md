@@ -6,6 +6,8 @@
 ## react
 - [一些插件](./src/react/一些插件.md)
 - [搭建React的dva脚手架](./src/react/搭建React的dva脚手架.md)
+- [React前端工程化](./src/react/React前端工程化.md)
+- [React性能分析](./src/react/React性能分析.md)
 
 ## react-native
 - [react-native与WebView的双向通信](./src/react-native/react-native与WebView的双向通信.md)
@@ -19,6 +21,9 @@
 ## 性能优化
 - [app性能优化总结](./src/performance/app性能优化总结.md)
 
+## 开发工具
+- [Vistual Studio Code常用插件](./src/tools/VistualStudioCode常用插件.md)
+  
 ## 流程规范
 - [研发流程](./src/process/研发流程.md)
 - [源码管理](./src/process/源码管理.md)
