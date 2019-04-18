@@ -8,7 +8,6 @@ Vistual Studio Code常用插件
 - [Vistual Studio Code常用插件](#vistual-studio-code%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6)
   - [REST Client](#rest-client)
   - [视觉增强：vscode-icons](#%E8%A7%86%E8%A7%89%E5%A2%9E%E5%BC%BAvscode-icons)
-  - [语法高亮：Beautify](#%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AEbeautify)
   - [调试器：Debugger for Chrome](#%E8%B0%83%E8%AF%95%E5%99%A8debugger-for-chrome)
   - [gitflow](#gitflow)
   - [Git增强：GitLens](#git%E5%A2%9E%E5%BC%BAgitlens)
@@ -30,9 +29,6 @@ Vistual Studio Code常用插件
 ## 视觉增强：vscode-icons
 也许 vscode-icons 是 VS Code 最有效的视觉调整扩展之一。它能够处理你项目中平淡的文件列表，并添加丰富多彩、表示特定语言的图标。这样可以很容易地让你知道代码文件的类型。能够给工作区添加个性化设置是非常受欢迎的功能。
 
-## 语法高亮：Beautify
-你是否非常依赖语法高亮显示？如果是的话，Beautify 正是你需要的。它利用了 VS Code 中已有的 Online JavaScript Beautifier，允许你轻松更改其样式。这意味着你可以根据内容设置缩进、换行和其他细节。
-
 ## 调试器：Debugger for Chrome
 对于在运行时期间对代码进行调试的开发人员，Debugger for Chrome 将帮你更好的完成工作。它有许多方便的功能，包括在代码、watches 和控制台中设置断点的功能。另外你可以在 VS Code 中运行Chrome实例，或把调试器附加到单独运行的浏览器实例。
 
@@ -47,6 +43,7 @@ Vistual Studio Code常用插件
 
 ## 代码格式化：Prettier - Code formatter
 能够自动应用 Prettier，并将整个 JS 和 CSS 文档快速格式化为统一的代码样式。如果你还想使用 ESLint，那么还有个 Prettier – Eslint 插件，你可不要错过咯！
+在setting.json文件添加`"prettier.eslintIntegration": true`配置，使代码在格式化时自动应用eslint规范。
 
 ## 代码检查：ESLint
 JavaScript 可能很难调试。但 ESLint 扩展可以使这个过程更容易。它能够在执行代码之前帮你指出其中潜在的问题。更强大的是它允许你创建自己的 linting 规则。
