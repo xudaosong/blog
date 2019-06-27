@@ -5,20 +5,21 @@ Vistual Studio Code常用插件
 
 <!-- code_chunk_output -->
 
-- [Vistual Studio Code常用插件](#vistual-studio-code%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6)
-  - [REST Client](#rest-client)
+- [Vistual Studio Code常用插件](#Vistual-Studio-Code%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6)
+  - [REST Client](#REST-Client)
   - [视觉增强：vscode-icons](#%E8%A7%86%E8%A7%89%E5%A2%9E%E5%BC%BAvscode-icons)
-  - [调试器：Debugger for Chrome](#%E8%B0%83%E8%AF%95%E5%99%A8debugger-for-chrome)
+  - [调试器：Debugger for Chrome](#%E8%B0%83%E8%AF%95%E5%99%A8Debugger-for-Chrome)
   - [gitflow](#gitflow)
-  - [Git增强：GitLens](#git%E5%A2%9E%E5%BC%BAgitlens)
-  - [Git History](#git-history)
-  - [代码格式化：Prettier - Code formatter](#%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96prettier---code-formatter)
-  - [代码检查：ESLint](#%E4%BB%A3%E7%A0%81%E6%A3%80%E6%9F%A5eslint)
-  - [界面主题：One Dark Pro](#%E7%95%8C%E9%9D%A2%E4%B8%BB%E9%A2%98one-dark-pro)
-  - [代码增强：Bracket Pair Colorizer 2](#%E4%BB%A3%E7%A0%81%E5%A2%9E%E5%BC%BAbracket-pair-colorizer-2)
-  - [Npm Intellisense](#npm-intellisense)
-  - [Import Cost](#import-cost)
-  - [Document This](#document-this)
+  - [Git增强：GitLens](#Git%E5%A2%9E%E5%BC%BAGitLens)
+  - [Git History](#Git-History)
+  - [代码格式化：Prettier - Code formatter](#%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96Prettier---Code-formatter)
+  - [代码检查：ESLint](#%E4%BB%A3%E7%A0%81%E6%A3%80%E6%9F%A5ESLint)
+  - [界面主题：One Dark Pro](#%E7%95%8C%E9%9D%A2%E4%B8%BB%E9%A2%98One-Dark-Pro)
+  - [代码增强：Bracket Pair Colorizer 2](#%E4%BB%A3%E7%A0%81%E5%A2%9E%E5%BC%BABracket-Pair-Colorizer-2)
+  - [Npm Intellisense](#Npm-Intellisense)
+  - [Import Cost](#Import-Cost)
+  - [Document This](#Document-This)
+  - [vscode-fileheader](#vscode-fileheader)
 
 <!-- /code_chunk_output -->
 
@@ -62,3 +63,20 @@ Bracket Pair Colorizer 2 是一个简单的扩展，可以使代码更容易阅�
 
 ## Document This
 为js文件生成文档的代码注释
+
+## vscode-fileheader
+添加文件页头注释, 如下所示：
+```js
+/*
+ * @Author: xudaosong@leedarson.com
+ * @Date: 2019-06-27 09:23:15
+ * @Last Modified by: xudaosong@leedarson.com
+ * @Last Modified time: 2019-06-27 09:24:34
+ */
+```
+在setting.json中添加下面代码，可以修改Author和LastModifiedBy
+```json
+"fileheader.Author": "xudaosong@leedarson.com",
+"fileheader.LastModifiedBy": "xudaosong@leedarson.com",
+"fileheader.tpl": "/*\r\n * @Author: {author}\r\n * @Date: {createTime}\r\n * @Last Modified by:   {lastModifiedBy}\r\n * @Last Modified time: {updateTime}\r\n */\r\n"
+```
